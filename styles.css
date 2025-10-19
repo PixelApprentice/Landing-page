@@ -1,12 +1,170 @@
-html,body{
-    margin: 0;
+html{
     padding: 0;
+    margin: 0;
+}
+header,.hero_section,footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f2937;
 }
 nav{
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 .links{
+    display: flex;
+    margin-left: auto;
     list-style: none;
+    gap: 15%;
+}
+.links li {
+    color: #e5e7eb;
+    font-size: 16px; 
+    white-space: nowrap; 
+}
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    padding:100px 150px;
+}
+.head_text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.hero_sub_text,.links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left_text{
+    flex: 1;
 
+}
+.right_text{
+    flex: 1;
+}
+.right_text img{
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+}
+.hero_button{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.contact_section{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 150px;
+}
+figure img{
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+figcaption{
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+}
+.figure_class{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.figure_class li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+.random_text_hero{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+.quote_section{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+.quote_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.4;
+}
+.author_name{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.contact_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 100px 150px;
+    padding: 50px 100px;
+
+}
+.contact_left {
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+footer p{
+    text-align: center;
+    color: #f9faf8;
+}
+.contact_hero_text {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+.contact_mini_text {
+    color: #e5e7eb;
+    margin: 0;
+}
+.Call {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hero_button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
 }
