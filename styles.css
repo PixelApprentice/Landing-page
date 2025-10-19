@@ -4,54 +4,9 @@ html,body{
 }
 nav{
     display: flex;
-    align-items: center;
-    gap: 3%;
-}
-.lists{
-    display: flex;
-    list-style: none;
-    margin-left: auto;
-}
-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap 20px;
-}
-.hero_main{
-    flex: 1;
-    max-width: 50%;
-}
-.image_placeholder{
-    flex: 1;
-    max-width: 50%;
 
 }
-.random_info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
+.links{
     list-style: none;
-}
-figure{
-    border: black solid 5px;
-    border-radius: 4%;
-}
-.action{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap 20px;
-}
-.left_side,.right_side{
-    flex: 1;
-    max-width: 48%;
-}
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: auto;
 
 }
